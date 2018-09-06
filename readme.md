@@ -18,10 +18,23 @@ The model with texture is shown as: <br />
 If you are using Ubuntu, the installation of OpenGL would be super easy:
 
 > sudo apt-get install libgl1-mesa-dev
+<br />
 > sudo apt install libglu1-mesa-dev
+<br />
 > sudo apt install freeglut3-dev
 
 Then you can use the following order to compile program:
 
 > g++ -o design car_design.cpp -lGL -lGLU -lglut
+<br />
 > g++ -o carTex texture_car.cpp -lGL -lGLU -lglut
+
+### Key Description
+
+You can use keyboard to control the movement of model. 
+- 'f' : move the wheel
+- 's', 'w' : rotate the model
+- 'z', 'Z', 'x', 'X' : zoom in/out the model
+- 'l' : open/close left door
+- 'r' : open/close right door
+- 'y', 'Y' : change the view at vertical plane
