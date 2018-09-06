@@ -17,14 +17,14 @@ The model with texture is shown as: <br />
 
 If you are using Ubuntu, the installation of OpenGL would be super easy:
 
-> sudo apt-get install libgl1-mesa-dev
- sudo apt install libglu1-mesa-dev
- sudo apt install freeglut3-dev
+- sudo apt-get install libgl1-mesa-dev
+- sudo apt install libglu1-mesa-dev
+- sudo apt install freeglut3-dev
 
 Then you can use the following order to compile program:
 
-> g++ -o design car_design.cpp -lGL -lGLU -lglut
- g++ -o carTex texture_car.cpp -lGL -lGLU -lglut
+- g++ -o design car_design.cpp -lGL -lGLU -lglut
+- g++ -o carTex texture_car.cpp -lGL -lGLU -lglut
 
 ### Key Description
 
