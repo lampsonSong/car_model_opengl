@@ -1,4 +1,4 @@
-// testOpenGL.cpp : 定义控制台应用程序的入口点。
+// testOpenGL.cpp : model design of a car using openGL
 //
 
 #include <stdio.h>
@@ -12,6 +12,7 @@ static int shoulder = 0,elbow = 0,num,num2,checkImageWidth,checkImageHeight,texN
 
 void LoadTex();
 
+// points for Bezier curves
 GLfloat forepoints[4][4][3] = {
 	{{0.0,0.0,0.0},{0.3,0.0,0.0},{0.6,0.0,0.0},{1.0,0.0,0.0}},
 	{{0.0,0.3,0.0},{0.3,0.3,-0.05},{0.6,0.3,-0.05},{0.95,0.3,-0.05}},
